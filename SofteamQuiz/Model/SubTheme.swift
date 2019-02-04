@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct SubTheme {
+    let id: Int
+    let title: String
+    let questions: [Question]
+}

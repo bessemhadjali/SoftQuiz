@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+struct Theme {
+    let id: Int
+    let title: String
+    let score: Int
+    let subThemes: [SubTheme]
+}

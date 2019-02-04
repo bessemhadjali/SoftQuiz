@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		AC984E5E220764D2008779A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E5D220764D2008779A7 /* AppDelegate.swift */; };
-		AC984E60220764D2008779A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E5F220764D2008779A7 /* ViewController.swift */; };
 		AC984E63220764D2008779A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC984E61220764D2008779A7 /* Main.storyboard */; };
 		AC984E66220764D2008779A7 /* SofteamQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC984E64220764D2008779A7 /* SofteamQuiz.xcdatamodeld */; };
 		AC984E68220764D4008779A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC984E67220764D4008779A7 /* Assets.xcassets */; };
 		AC984E6B220764D4008779A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC984E69220764D4008779A7 /* LaunchScreen.storyboard */; };
 		AC984E76220764D4008779A7 /* SofteamQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E75220764D4008779A7 /* SofteamQuizTests.swift */; };
 		AC984E81220764D4008779A7 /* SofteamQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E80220764D4008779A7 /* SofteamQuizUITests.swift */; };
+		AC984E90220767EB008779A7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E8F220767EB008779A7 /* Question.swift */; };
+		AC984E922207686D008779A7 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E912207686D008779A7 /* Theme.swift */; };
+		AC984E94220768AB008779A7 /* SubTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E93220768AB008779A7 /* SubTheme.swift */; };
+		AC984E9722076FAD008779A7 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E9622076FAD008779A7 /* ThemeManager.swift */; };
+		AC984E9922077A09008779A7 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E9822077A09008779A7 /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		AC984E5A220764D2008779A7 /* SofteamQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SofteamQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC984E5D220764D2008779A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AC984E5F220764D2008779A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AC984E62220764D2008779A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC984E65220764D2008779A7 /* SofteamQuiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SofteamQuiz.xcdatamodel; sourceTree = "<group>"; };
 		AC984E67220764D4008779A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		AC984E7C220764D4008779A7 /* SofteamQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SofteamQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC984E80220764D4008779A7 /* SofteamQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofteamQuizUITests.swift; sourceTree = "<group>"; };
 		AC984E82220764D4008779A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC984E8F220767EB008779A7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		AC984E912207686D008779A7 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		AC984E93220768AB008779A7 /* SubTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTheme.swift; sourceTree = "<group>"; };
+		AC984E9622076FAD008779A7 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		AC984E9822077A09008779A7 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,11 @@
 		AC984E5C220764D2008779A7 /* SofteamQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				AC984E9A22077B0D008779A7 /* Controller */,
+				AC984E9522076E35008779A7 /* API */,
+				AC984E8E220767C9008779A7 /* Model */,
 				AC984E5D220764D2008779A7 /* AppDelegate.swift */,
-				AC984E5F220764D2008779A7 /* ViewController.swift */,
-				AC984E61220764D2008779A7 /* Main.storyboard */,
+				AC984E9B22077B22008779A7 /* View */,
 				AC984E67220764D4008779A7 /* Assets.xcassets */,
 				AC984E69220764D4008779A7 /* LaunchScreen.storyboard */,
 				AC984E6C220764D4008779A7 /* Info.plist */,
@@ -126,6 +136,40 @@
 				AC984E82220764D4008779A7 /* Info.plist */,
 			);
 			path = SofteamQuizUITests;
+			sourceTree = "<group>";
+		};
+		AC984E8E220767C9008779A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC984E8F220767EB008779A7 /* Question.swift */,
+				AC984E912207686D008779A7 /* Theme.swift */,
+				AC984E93220768AB008779A7 /* SubTheme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC984E9522076E35008779A7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AC984E9622076FAD008779A7 /* ThemeManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		AC984E9A22077B0D008779A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AC984E9822077A09008779A7 /* QuizViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AC984E9B22077B22008779A7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC984E61220764D2008779A7 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC984E60220764D2008779A7 /* ViewController.swift in Sources */,
+				AC984E9722076FAD008779A7 /* ThemeManager.swift in Sources */,
+				AC984E90220767EB008779A7 /* Question.swift in Sources */,
+				AC984E9922077A09008779A7 /* QuizViewController.swift in Sources */,
+				AC984E922207686D008779A7 /* Theme.swift in Sources */,
+				AC984E94220768AB008779A7 /* SubTheme.swift in Sources */,
 				AC984E5E220764D2008779A7 /* AppDelegate.swift in Sources */,
 				AC984E66220764D2008779A7 /* SofteamQuiz.xcdatamodeld in Sources */,
 			);

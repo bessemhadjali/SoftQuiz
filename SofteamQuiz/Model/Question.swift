@@ -7,3 +7,13 @@
 //
 
 import Foundation
+
+struct Question {
+    let id: Int
+    let questionText: String
+    let rule: String
+    let options: [String]
+    let correctAns: Int
+    var wrongAns: Int
+    var isAnswered: Bool
+}
