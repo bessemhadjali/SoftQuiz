@@ -13,4 +13,11 @@ struct Theme {
     let title: String
     let score: Int
     let subThemes: [SubTheme]
+    
+    init(id: Int, title: String, score: Int, subThemes: [SubTheme]) {
+        self.id = id
+        self.title = title
+        self.score = score
+        self.subThemes = subThemes
+    }
 }

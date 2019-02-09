@@ -65,7 +65,7 @@
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="apj-rd-Lba">
                                 <rect key="frame" x="16" y="359" width="343" height="260"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="260" id="KmO-2R-oz2"/>
                                 </constraints>
@@ -76,6 +76,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JF4-fc-f4c" id="9vh-zh-NUn">
                                             <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" red="0.48627450979999998" green="0.094117647060000004" blue="0.49019607840000001" alpha="1" colorSpace="calibratedRGB"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -109,6 +110,7 @@
                     <connections>
                         <outlet property="nextButton" destination="eBB-nB-Naw" id="hdW-3a-ptu"/>
                         <outlet property="optionsTableView" destination="apj-rd-Lba" id="LkY-f2-U7J"/>
+                        <outlet property="optionsTableViewHeightConstraint" destination="KmO-2R-oz2" id="u6z-gh-JRe"/>
                         <outlet property="previousButton" destination="Y2K-o0-65U" id="p01-eJ-yuE"/>
                         <outlet property="questionRuleLabel" destination="cqw-EP-GaU" id="Sqk-aX-4qA"/>
                         <outlet property="questionTextLabel" destination="g6w-e9-Rhw" id="9is-d4-ufS"/>

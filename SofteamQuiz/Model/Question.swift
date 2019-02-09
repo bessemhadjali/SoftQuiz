@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Question {
+class Question {
     let id: Int
     let questionText: String
     let rule: String
@@ -16,4 +16,14 @@ struct Question {
     let correctAns: Int
     var wrongAns: Int
     var isAnswered: Bool
+    
+    init(id: Int, questionText: String, rule: String, options: [String], correctAns: Int, wrongAns: Int, isAnswered:Bool) {
+        self.id = id
+        self.questionText = questionText
+        self.rule = rule
+        self.options = options
+        self.correctAns = correctAns
+        self.wrongAns = wrongAns
+        self.isAnswered = isAnswered
+    }
 }

@@ -12,4 +12,10 @@ struct SubTheme {
     let id: Int
     let title: String
     let questions: [Question]
+    
+    init(id: Int, title: String, questions: [Question]) {
+        self.id = id
+        self.title = title
+        self.questions = questions
+    }
 }
