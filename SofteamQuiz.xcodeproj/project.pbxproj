@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89DF9F738BC848FC4BCC46BA /* Pods_SofteamQuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B2E729617F2D382CD0BECE /* Pods_SofteamQuizUITests.framework */; };
 		AC984E5E220764D2008779A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E5D220764D2008779A7 /* AppDelegate.swift */; };
 		AC984E63220764D2008779A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC984E61220764D2008779A7 /* Main.storyboard */; };
 		AC984E66220764D2008779A7 /* SofteamQuiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC984E64220764D2008779A7 /* SofteamQuiz.xcdatamodeld */; };
@@ -19,6 +20,10 @@
 		AC984E94220768AB008779A7 /* SubTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E93220768AB008779A7 /* SubTheme.swift */; };
 		AC984E9722076FAD008779A7 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E9622076FAD008779A7 /* ThemeManager.swift */; };
 		AC984E9922077A09008779A7 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E9822077A09008779A7 /* QuizViewController.swift */; };
+		C4F2F9B622187F2600AB25FD /* ResponseOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2F9B522187F2600AB25FD /* ResponseOptionCell.swift */; };
+		C4F2F9B822189E2500AB25FD /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2F9B722189E2500AB25FD /* SelfSizedTableView.swift */; };
+		C998061F5350D17116732997 /* Pods_SofteamQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303E8E67C4088CBBE57E3B0B /* Pods_SofteamQuiz.framework */; };
+		D42728A32A2EDDBA1591808A /* Pods_SofteamQuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B1A8AE2DABA017EE8C6D43 /* Pods_SofteamQuizTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02B2E729617F2D382CD0BECE /* Pods_SofteamQuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SofteamQuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B1A8AE2DABA017EE8C6D43 /* Pods_SofteamQuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SofteamQuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		303E8E67C4088CBBE57E3B0B /* Pods_SofteamQuiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SofteamQuiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6943850DCD45B0B3B645AEFB /* Pods-SofteamQuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofteamQuizUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SofteamQuizUITests/Pods-SofteamQuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A0BDA7484A4DF23BAA42E12 /* Pods-SofteamQuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofteamQuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SofteamQuizTests/Pods-SofteamQuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		764DC36F143BE956015D6283 /* Pods-SofteamQuiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofteamQuiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-SofteamQuiz/Pods-SofteamQuiz.release.xcconfig"; sourceTree = "<group>"; };
+		8D20E9FFA454CBE1BB343792 /* Pods-SofteamQuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofteamQuizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SofteamQuizTests/Pods-SofteamQuizTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC984E5A220764D2008779A7 /* SofteamQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SofteamQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC984E5D220764D2008779A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC984E62220764D2008779A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -57,6 +69,10 @@
 		AC984E93220768AB008779A7 /* SubTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTheme.swift; sourceTree = "<group>"; };
 		AC984E9622076FAD008779A7 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		AC984E9822077A09008779A7 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		BE3CFEF6C3CD34DE42BC41DF /* Pods-SofteamQuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofteamQuizUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SofteamQuizUITests/Pods-SofteamQuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4F2F9B522187F2600AB25FD /* ResponseOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseOptionCell.swift; sourceTree = "<group>"; };
+		C4F2F9B722189E2500AB25FD /* SelfSizedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizedTableView.swift; sourceTree = "<group>"; };
+		CCDA446CC2C5C0A412503116 /* Pods-SofteamQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofteamQuiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SofteamQuiz/Pods-SofteamQuiz.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C998061F5350D17116732997 /* Pods_SofteamQuiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42728A32A2EDDBA1591808A /* Pods_SofteamQuizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89DF9F738BC848FC4BCC46BA /* Pods_SofteamQuizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1668A3C9F78E4919E232801F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				303E8E67C4088CBBE57E3B0B /* Pods_SofteamQuiz.framework */,
+				04B1A8AE2DABA017EE8C6D43 /* Pods_SofteamQuizTests.framework */,
+				02B2E729617F2D382CD0BECE /* Pods_SofteamQuizUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87DA3D34B07E1396CA920135 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCDA446CC2C5C0A412503116 /* Pods-SofteamQuiz.debug.xcconfig */,
+				764DC36F143BE956015D6283 /* Pods-SofteamQuiz.release.xcconfig */,
+				6A0BDA7484A4DF23BAA42E12 /* Pods-SofteamQuizTests.debug.xcconfig */,
+				8D20E9FFA454CBE1BB343792 /* Pods-SofteamQuizTests.release.xcconfig */,
+				6943850DCD45B0B3B645AEFB /* Pods-SofteamQuizUITests.debug.xcconfig */,
+				BE3CFEF6C3CD34DE42BC41DF /* Pods-SofteamQuizUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AC984E51220764D2008779A7 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +133,8 @@
 				AC984E74220764D4008779A7 /* SofteamQuizTests */,
 				AC984E7F220764D4008779A7 /* SofteamQuizUITests */,
 				AC984E5B220764D2008779A7 /* Products */,
+				87DA3D34B07E1396CA920135 /* Pods */,
+				1668A3C9F78E4919E232801F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +212,8 @@
 			isa = PBXGroup;
 			children = (
 				AC984E61220764D2008779A7 /* Main.storyboard */,
+				C4F2F9B522187F2600AB25FD /* ResponseOptionCell.swift */,
+				C4F2F9B722189E2500AB25FD /* SelfSizedTableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC984E85220764D4008779A7 /* Build configuration list for PBXNativeTarget "SofteamQuiz" */;
 			buildPhases = (
+				C1796F76272395A7913E7F42 /* [CP] Check Pods Manifest.lock */,
 				AC984E56220764D2008779A7 /* Sources */,
 				AC984E57220764D2008779A7 /* Frameworks */,
 				AC984E58220764D2008779A7 /* Resources */,
+				58607C42F15CDDEDFB9C1463 /* [CP] Embed Pods Frameworks */,
+				BD76C7EF79AF1BB45C3791AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,9 +245,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC984E88220764D4008779A7 /* Build configuration list for PBXNativeTarget "SofteamQuizTests" */;
 			buildPhases = (
+				620B858263171EE7E87E8D11 /* [CP] Check Pods Manifest.lock */,
 				AC984E6D220764D4008779A7 /* Sources */,
 				AC984E6E220764D4008779A7 /* Frameworks */,
 				AC984E6F220764D4008779A7 /* Resources */,
+				1F6DBB97258D44B101CB7C37 /* [CP] Embed Pods Frameworks */,
+				828C30492758EBE528FAF13C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,9 +266,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC984E8B220764D4008779A7 /* Build configuration list for PBXNativeTarget "SofteamQuizUITests" */;
 			buildPhases = (
+				04FC14ED0139BADB43218871 /* [CP] Check Pods Manifest.lock */,
 				AC984E78220764D4008779A7 /* Sources */,
 				AC984E79220764D4008779A7 /* Frameworks */,
 				AC984E7A220764D4008779A7 /* Resources */,
+				352EF292BBC607C5C5826DDB /* [CP] Embed Pods Frameworks */,
+				F04801EBCB9881667DB8198A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -298,6 +353,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04FC14ED0139BADB43218871 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SofteamQuizUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F6DBB97258D44B101CB7C37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SofteamQuizTests/Pods-SofteamQuizTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		352EF292BBC607C5C5826DDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SofteamQuizUITests/Pods-SofteamQuizUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58607C42F15CDDEDFB9C1463 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SofteamQuiz/Pods-SofteamQuiz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SofteamQuiz/Pods-SofteamQuiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		620B858263171EE7E87E8D11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SofteamQuizTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		828C30492758EBE528FAF13C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SofteamQuizTests/Pods-SofteamQuizTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD76C7EF79AF1BB45C3791AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SofteamQuiz/Pods-SofteamQuiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1796F76272395A7913E7F42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SofteamQuiz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F04801EBCB9881667DB8198A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SofteamQuizUITests/Pods-SofteamQuizUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AC984E56220764D2008779A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -305,7 +510,9 @@
 			files = (
 				AC984E9722076FAD008779A7 /* ThemeManager.swift in Sources */,
 				AC984E90220767EB008779A7 /* Question.swift in Sources */,
+				C4F2F9B822189E2500AB25FD /* SelfSizedTableView.swift in Sources */,
 				AC984E9922077A09008779A7 /* QuizViewController.swift in Sources */,
+				C4F2F9B622187F2600AB25FD /* ResponseOptionCell.swift in Sources */,
 				AC984E922207686D008779A7 /* Theme.swift in Sources */,
 				AC984E94220768AB008779A7 /* SubTheme.swift in Sources */,
 				AC984E5E220764D2008779A7 /* AppDelegate.swift in Sources */,
@@ -482,15 +689,13 @@
 		};
 		AC984E86220764D4008779A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCDA446CC2C5C0A412503116 /* Pods-SofteamQuiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKM6383J4N;
 				INFOPLIST_FILE = SofteamQuiz/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -500,15 +705,13 @@
 		};
 		AC984E87220764D4008779A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764DC36F143BE956015D6283 /* Pods-SofteamQuiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKM6383J4N;
 				INFOPLIST_FILE = SofteamQuiz/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -518,16 +721,13 @@
 		};
 		AC984E89220764D4008779A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0BDA7484A4DF23BAA42E12 /* Pods-SofteamQuizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SofteamQuizTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuizTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -538,16 +738,13 @@
 		};
 		AC984E8A220764D4008779A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D20E9FFA454CBE1BB343792 /* Pods-SofteamQuizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SofteamQuizTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuizTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -558,15 +755,12 @@
 		};
 		AC984E8C220764D4008779A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6943850DCD45B0B3B645AEFB /* Pods-SofteamQuizUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SofteamQuizUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuizUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -577,15 +771,12 @@
 		};
 		AC984E8D220764D4008779A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE3CFEF6C3CD34DE42BC41DF /* Pods-SofteamQuizUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SofteamQuizUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuizUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
