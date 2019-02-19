@@ -20,6 +20,9 @@
 		AC984E94220768AB008779A7 /* SubTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E93220768AB008779A7 /* SubTheme.swift */; };
 		AC984E9722076FAD008779A7 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E9622076FAD008779A7 /* ThemeManager.swift */; };
 		AC984E9922077A09008779A7 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC984E9822077A09008779A7 /* QuizViewController.swift */; };
+		C4CE8B89221ACABA00015EA0 /* SofteamColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE8B88221ACABA00015EA0 /* SofteamColor.swift */; };
+		C4CE8B8B221AFC4A00015EA0 /* SofteamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE8B8A221AFC4A00015EA0 /* SofteamView.swift */; };
+		C4CE8B8D221AFC5A00015EA0 /* SofteamButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CE8B8C221AFC5A00015EA0 /* SofteamButton.swift */; };
 		C4F2F9B622187F2600AB25FD /* ResponseOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2F9B522187F2600AB25FD /* ResponseOptionCell.swift */; };
 		C4F2F9B822189E2500AB25FD /* SelfSizedTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F2F9B722189E2500AB25FD /* SelfSizedTableView.swift */; };
 		C998061F5350D17116732997 /* Pods_SofteamQuiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 303E8E67C4088CBBE57E3B0B /* Pods_SofteamQuiz.framework */; };
@@ -70,6 +73,9 @@
 		AC984E9622076FAD008779A7 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
 		AC984E9822077A09008779A7 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		BE3CFEF6C3CD34DE42BC41DF /* Pods-SofteamQuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofteamQuizUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SofteamQuizUITests/Pods-SofteamQuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4CE8B88221ACABA00015EA0 /* SofteamColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofteamColor.swift; sourceTree = "<group>"; };
+		C4CE8B8A221AFC4A00015EA0 /* SofteamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofteamView.swift; sourceTree = "<group>"; };
+		C4CE8B8C221AFC5A00015EA0 /* SofteamButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofteamButton.swift; sourceTree = "<group>"; };
 		C4F2F9B522187F2600AB25FD /* ResponseOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseOptionCell.swift; sourceTree = "<group>"; };
 		C4F2F9B722189E2500AB25FD /* SelfSizedTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfSizedTableView.swift; sourceTree = "<group>"; };
 		CCDA446CC2C5C0A412503116 /* Pods-SofteamQuiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SofteamQuiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SofteamQuiz/Pods-SofteamQuiz.debug.xcconfig"; sourceTree = "<group>"; };
@@ -151,6 +157,7 @@
 		AC984E5C220764D2008779A7 /* SofteamQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				C412C02F221ABE8900E38AD4 /* Utils */,
 				AC984E9A22077B0D008779A7 /* Controller */,
 				AC984E9522076E35008779A7 /* API */,
 				AC984E8E220767C9008779A7 /* Model */,
@@ -216,6 +223,16 @@
 				C4F2F9B722189E2500AB25FD /* SelfSizedTableView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C412C02F221ABE8900E38AD4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C4CE8B88221ACABA00015EA0 /* SofteamColor.swift */,
+				C4CE8B8A221AFC4A00015EA0 /* SofteamView.swift */,
+				C4CE8B8C221AFC5A00015EA0 /* SofteamButton.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -511,10 +528,13 @@
 				AC984E9722076FAD008779A7 /* ThemeManager.swift in Sources */,
 				AC984E90220767EB008779A7 /* Question.swift in Sources */,
 				C4F2F9B822189E2500AB25FD /* SelfSizedTableView.swift in Sources */,
+				C4CE8B89221ACABA00015EA0 /* SofteamColor.swift in Sources */,
 				AC984E9922077A09008779A7 /* QuizViewController.swift in Sources */,
 				C4F2F9B622187F2600AB25FD /* ResponseOptionCell.swift in Sources */,
 				AC984E922207686D008779A7 /* Theme.swift in Sources */,
+				C4CE8B8B221AFC4A00015EA0 /* SofteamView.swift in Sources */,
 				AC984E94220768AB008779A7 /* SubTheme.swift in Sources */,
+				C4CE8B8D221AFC5A00015EA0 /* SofteamButton.swift in Sources */,
 				AC984E5E220764D2008779A7 /* AppDelegate.swift in Sources */,
 				AC984E66220764D2008779A7 /* SofteamQuiz.xcdatamodeld in Sources */,
 			);
@@ -695,7 +715,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKM6383J4N;
 				INFOPLIST_FILE = SofteamQuiz/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -711,7 +734,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SKM6383J4N;
 				INFOPLIST_FILE = SofteamQuiz/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuiz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -727,7 +753,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SofteamQuizTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuizTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -744,7 +774,11 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SofteamQuizTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuizTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -760,7 +794,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SofteamQuizUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuizUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -776,7 +814,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SofteamQuizUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.SofteamDigital.SofteamQuizUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

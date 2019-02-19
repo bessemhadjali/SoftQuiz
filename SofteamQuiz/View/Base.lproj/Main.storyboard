@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBB-nB-Naw">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBB-nB-Naw" customClass="SofteamButton" customModule="SofteamQuiz" customModuleProvider="target">
                                 <rect key="frame" x="192.5" y="607" width="172.5" height="50"/>
                                 <color key="backgroundColor" red="0.21176470588235294" green="0.37647058823529411" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -26,13 +26,13 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
                                 <state key="normal" title="Suivant &gt;">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="nextQuestionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aMZ-1I-pm4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2K-o0-65U">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2K-o0-65U" customClass="SofteamButton" customModule="SofteamQuiz" customModuleProvider="target">
                                 <rect key="frame" x="10" y="607" width="172.5" height="50"/>
                                 <color key="backgroundColor" red="0.21173766259999999" green="0.37716263529999999" blue="0.57427799700000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
@@ -99,7 +99,7 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Upi-Kl-ela" userLabel="ThemeContainer">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Upi-Kl-ela" userLabel="ThemeContainer" customClass="SofteamView" customModule="SofteamQuiz" customModuleProvider="target">
                                 <rect key="frame" x="5" y="69" width="365" height="34"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8T0-63-Rra">
@@ -117,7 +117,7 @@
                                     <constraint firstAttribute="bottom" secondItem="8T0-63-Rra" secondAttribute="bottom" constant="8" id="wtE-Ja-2KQ"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q18-b7-0wA" userLabel="SubThemeContainer">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q18-b7-0wA" userLabel="SubThemeContainer" customClass="SofteamView" customModule="SofteamQuiz" customModuleProvider="target">
                                 <rect key="frame" x="20" y="108" width="350" height="33"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vM8-TU-KQf">
@@ -153,7 +153,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="q18-b7-0wA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-5" id="2zQ-vx-cIs"/>
                             <constraint firstItem="q18-b7-0wA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7W6-Rd-fga"/>
@@ -184,14 +184,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="8BM-7a-o5x"/>
                     <connections>
-                        <outlet property="nextButton" destination="eBB-nB-Naw" id="hdW-3a-ptu"/>
+                        <outlet property="nextButton" destination="eBB-nB-Naw" id="0E7-hI-wqa"/>
                         <outlet property="optionsTableView" destination="apj-rd-Lba" id="LkY-f2-U7J"/>
                         <outlet property="optionsTableViewHeightConstraint" destination="KmO-2R-oz2" id="u6z-gh-JRe"/>
-                        <outlet property="previousButton" destination="Y2K-o0-65U" id="p01-eJ-yuE"/>
+                        <outlet property="previousButton" destination="Y2K-o0-65U" id="BnX-Bz-wf5"/>
                         <outlet property="questionTextLabel" destination="g6w-e9-Rhw" id="9is-d4-ufS"/>
-                        <outlet property="subThemeContainer" destination="q18-b7-0wA" id="Mqf-cf-On2"/>
                         <outlet property="subThemeLabel" destination="vM8-TU-KQf" id="bru-QX-PM0"/>
-                        <outlet property="themeContainer" destination="Upi-Kl-ela" id="kSz-6h-BYb"/>
                         <outlet property="themeLabel" destination="8T0-63-Rra" id="0sK-HT-ilN"/>
                     </connections>
                 </viewController>
