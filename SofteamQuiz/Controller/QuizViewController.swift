@@ -108,9 +108,9 @@ class QuizViewController: UIViewController {
         case 1:
             return pourcentage >= 90 ? true : false
         case 2:
-            return pourcentage >= 60 ? true : false
+            return pourcentage >= 80 ? true : false
         case 3:
-            return pourcentage >= 60 ? true : false
+            return pourcentage >= 75 ? true : false
         case 4:
             return pourcentage >= 100 ? true : false
         default:
@@ -248,19 +248,24 @@ extension QuizViewController: UITableViewDataSource {
 extension QuizViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
         let selectedCell = tableView.cellForRow(at: indexPath) as! ResponseOptionCell
         currentQuestion!.isAnswered = true
+        
         if indexPath.row == currentQuestion!.correctAns - 1 {
-            //let green = UIColorFromRGB(0x22B573)
+            
             selectedCell.optionContainer.backgroundColor = SofteamColor.Success.UIColorFromRGB()
             score += 1
-            SCLAlertView().showSuccess("FÉLICITATIONS", subTitle: "BlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBla", closeButtonTitle: "OK")
+            
+            SCLAlertView().showSuccess("Réponse exacte", subTitle: currentQuestion!.comment, closeButtonTitle: "OK")
             
         } else {
             
             selectedCell.optionContainer.backgroundColor = SofteamColor.Failed.UIColorFromRGB()
+            
             currentQuestion!.wrongAns = indexPath.row
-            SCLAlertView().showError("CORRECTION", subTitle: "BlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBlaBla", closeButtonTitle: "OK")
+            
+            SCLAlertView().showError("Réponse fausse", subTitle: currentQuestion!.comment, closeButtonTitle: "OK")
             //score -= 1
         }
         tableView.allowsSelection = false

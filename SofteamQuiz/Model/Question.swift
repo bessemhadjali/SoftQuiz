@@ -12,12 +12,13 @@ class Question {
     let id: Int
     let questionText: String
     let rule: String
+    let comment: String
     let options: [String]
     let correctAns: Int
     var wrongAns: Int
     var isAnswered: Bool
     
-    init(id: Int, questionText: String, rule: String, options: [String], correctAns: Int, wrongAns: Int, isAnswered:Bool) {
+    init(id: Int, questionText: String, rule: String,  comment: String, options: [String], correctAns: Int, wrongAns: Int, isAnswered:Bool) {
         self.id = id
         self.questionText = questionText
         self.rule = rule
@@ -25,5 +26,6 @@ class Question {
         self.correctAns = correctAns
         self.wrongAns = wrongAns
         self.isAnswered = isAnswered
+        self.comment = comment
     }
 }

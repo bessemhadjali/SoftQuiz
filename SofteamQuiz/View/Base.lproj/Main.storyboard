@@ -44,7 +44,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6w-e9-Rhw">
-                                <rect key="frame" x="25" y="156" width="340" height="18"/>
+                                <rect key="frame" x="12" y="156" width="334" height="18"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -100,10 +100,10 @@
                                 </prototypes>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Upi-Kl-ela" userLabel="ThemeContainer" customClass="SofteamView" customModule="SofteamQuiz" customModuleProvider="target">
-                                <rect key="frame" x="5" y="69" width="365" height="34"/>
+                                <rect key="frame" x="10" y="69" width="360" height="34"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8T0-63-Rra">
-                                        <rect key="frame" x="8" y="8" width="349" height="18"/>
+                                        <rect key="frame" x="8" y="8" width="344" height="18"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -118,10 +118,10 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q18-b7-0wA" userLabel="SubThemeContainer" customClass="SofteamView" customModule="SofteamQuiz" customModuleProvider="target">
-                                <rect key="frame" x="20" y="108" width="350" height="33"/>
+                                <rect key="frame" x="22" y="108" width="348" height="33"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vM8-TU-KQf">
-                                        <rect key="frame" x="8" y="8" width="334" height="17"/>
+                                        <rect key="frame" x="8" y="8" width="332" height="17"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
                                         <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -143,10 +143,10 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yvg-h5-xiy">
-                                <rect key="frame" x="5" y="156" width="17" height="17"/>
+                                <rect key="frame" x="350" y="158" width="20" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="17" id="UU1-Ud-d0s"/>
-                                    <constraint firstAttribute="width" constant="17" id="kJ9-7b-jY8"/>
+                                    <constraint firstAttribute="height" constant="20" id="boi-8E-DRu"/>
+                                    <constraint firstAttribute="width" constant="20" id="oyl-Lf-m1j"/>
                                 </constraints>
                                 <connections>
                                     <action selector="infoQuestionAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4nl-Ga-Hf0"/>
@@ -156,16 +156,16 @@
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="q18-b7-0wA" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-5" id="2zQ-vx-cIs"/>
-                            <constraint firstItem="q18-b7-0wA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="7W6-Rd-fga"/>
+                            <constraint firstItem="q18-b7-0wA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="7W6-Rd-fga"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Y2K-o0-65U" secondAttribute="bottom" constant="10" id="89w-Vi-ISa"/>
                             <constraint firstItem="Upi-Kl-ela" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="8DI-gt-JxO"/>
-                            <constraint firstItem="Yvg-h5-xiy" firstAttribute="top" secondItem="g6w-e9-Rhw" secondAttribute="top" id="9ne-4f-gqL"/>
-                            <constraint firstItem="g6w-e9-Rhw" firstAttribute="leading" secondItem="q18-b7-0wA" secondAttribute="leading" constant="5" id="B2t-hp-QSB"/>
                             <constraint firstItem="eBB-nB-Naw" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-10" id="CHi-6A-CWY"/>
                             <constraint firstItem="Y2K-o0-65U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Cmv-G3-CKi"/>
                             <constraint firstItem="rVm-84-C4J" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Ea4-KO-WX9"/>
+                            <constraint firstItem="Yvg-h5-xiy" firstAttribute="top" secondItem="g6w-e9-Rhw" secondAttribute="top" constant="2" id="HeH-3B-yGO"/>
                             <constraint firstItem="eBB-nB-Naw" firstAttribute="top" secondItem="apj-rd-Lba" secondAttribute="bottom" constant="15" id="I5m-IF-E9U"/>
                             <constraint firstItem="eBB-nB-Naw" firstAttribute="height" secondItem="Y2K-o0-65U" secondAttribute="height" id="Jxs-tZ-NsT"/>
+                            <constraint firstItem="Yvg-h5-xiy" firstAttribute="trailing" secondItem="q18-b7-0wA" secondAttribute="trailing" id="LcE-SY-A4v"/>
                             <constraint firstItem="eBB-nB-Naw" firstAttribute="leading" secondItem="Y2K-o0-65U" secondAttribute="trailing" constant="10" id="RpQ-LO-ZHP"/>
                             <constraint firstItem="eBB-nB-Naw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-10" id="S6c-0H-C0x"/>
                             <constraint firstItem="apj-rd-Lba" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="SdR-Ko-SUU"/>
@@ -175,10 +175,10 @@
                             <constraint firstItem="g6w-e9-Rhw" firstAttribute="top" secondItem="q18-b7-0wA" secondAttribute="bottom" constant="15" id="dNv-mO-26M"/>
                             <constraint firstItem="rVm-84-C4J" firstAttribute="top" secondItem="Upi-Kl-ela" secondAttribute="bottom" id="dc7-u6-sQS"/>
                             <constraint firstItem="q18-b7-0wA" firstAttribute="top" secondItem="Upi-Kl-ela" secondAttribute="bottom" constant="5" id="f4f-VZ-G3M"/>
-                            <constraint firstItem="Upi-Kl-ela" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="jgo-zW-sd6"/>
-                            <constraint firstItem="Yvg-h5-xiy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="nE9-c1-rGP"/>
-                            <constraint firstItem="g6w-e9-Rhw" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-10" id="o3A-UJ-INm"/>
+                            <constraint firstItem="g6w-e9-Rhw" firstAttribute="leading" secondItem="Upi-Kl-ela" secondAttribute="leading" constant="2" id="izk-rx-kZ8"/>
+                            <constraint firstItem="Upi-Kl-ela" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="jgo-zW-sd6"/>
                             <constraint firstItem="Upi-Kl-ela" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-5" id="w7j-xu-dha"/>
+                            <constraint firstItem="Yvg-h5-xiy" firstAttribute="leading" secondItem="g6w-e9-Rhw" secondAttribute="trailing" constant="4" id="yUj-3Y-r8T"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
